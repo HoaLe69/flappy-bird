@@ -61,7 +61,7 @@ window.onload = function (e) {
     }
     requestAnimationFrame(update);
     document.addEventListener("keydown", moveBird);
-
+    document.addEventListener("click", moveBird);
 }
 
 function update() {
@@ -133,6 +133,9 @@ function update() {
                 gameover = false;
                 score = 0;
             }
+        }
+        else {
+            velocityY = -6;
         }
 
     }

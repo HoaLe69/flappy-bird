@@ -1,0 +1,17 @@
+*   {
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    overflow: hidden;
+    background-color: #000;
+}
+#board {
+    background-image: url('./background-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
